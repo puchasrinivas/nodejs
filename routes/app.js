@@ -5,7 +5,7 @@ let PORT = process.env.PORT || 3000
 app.get("/hello", (req,res)=>{
     res.status(200).send("Hello Mr.Foo");
 })
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
     console.log("Server is listening to 3000...");
 })
 
